@@ -1,8 +1,10 @@
     header {
       text-align: center;
-      background: url("images/banner.jpg");
+      background: url("images/Untitled11");
       background-size: cover;
       color: white;
+      height: 100%;
+      width:100%;
     }
     .nav {
       color: white;
@@ -10,10 +12,13 @@
     h1 {
       font-size: 70px;
     }
+    #profile{
+      height:150px;
+    }
     img {
       margin: 40px 0px 0px 0px;
-      border: 7px solid white;
-      border-radius: 20px;
+      border: 20px solid white;
+      border-radius: 10px;
     }
     ul {
       padding: 10px;
@@ -37,4 +42,7 @@
         padding: 5px;
         display: block;
       }
-    }
+      a{
+        color: red;
+      }
+    
